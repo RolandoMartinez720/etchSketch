@@ -2,14 +2,19 @@ body{
     background-color: rgb(236, 204, 143);
 }
 
-.grid-item{
-    background-color: red;
-    width:8px;
-}
-
 #grid-container{
-    display:grid;
-    grid-template-columns: 20;
-    gap:1px;
 
+    width:600px;
+    height:600px;
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20,1fr);
+    margin: auto;
+}
+.grid-item{
+    background-color: rgb(179, 99, 99);
+    width:30px;
+    height: 30px;
+    grid-column: span 1;
+    grid-row: span 1;
 }
