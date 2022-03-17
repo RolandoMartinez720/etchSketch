@@ -3,7 +3,7 @@ body{
 }
 
 #grid-container{
-
+    border: 5px solid black;;
     width:600px;
     height:600px;
     display:grid;

@@ -7,3 +7,18 @@ let element;
     gridContainer.appendChild(element);
 }
 
+let gridElements=document.getElementsByClassName('grid-item');
+console.log(gridElements.length);
+
+
+for(let i=0;i<gridElements.length;i++)
+{
+    gridElements[i].addEventListener('mouseover',changeColor)
+    
+}
+
+
+
+function changeColor(e){
+    e.target.style.backgroundColor='black';
+}
