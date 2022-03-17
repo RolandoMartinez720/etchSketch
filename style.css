@@ -1,3 +1,15 @@
 body{
-    background-color: green;
+    background-color: rgb(236, 204, 143);
+}
+
+.grid-item{
+    background-color: red;
+    width:8px;
+}
+
+#grid-container{
+    display:grid;
+    grid-template-columns: 20;
+    gap:1px;
+
 }
