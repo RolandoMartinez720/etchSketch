@@ -1,20 +1,6 @@
-body{
-    background-color: rgb(236, 204, 143);
-}
-
-#grid-container{
-    border: 5px solid black;;
-    width:600px;
-    height:600px;
+#container{
     display:grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: repeat(20,1fr);
-    margin: auto;
-}
-.grid-item{
-    background-color: rgb(179, 99, 99);
-    width:30px;
-    height: 30px;
-    grid-column: span 1;
-    grid-row: span 1;
+    height:960px;
+    width: 960px;
+    /* grid-template-columns: repeat(16, 1fr); */
 }
